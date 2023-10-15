@@ -2,10 +2,6 @@
 
 **Hangman Game** is a classic word-guessing game built in Java with a user interface created using JavaFX. This README provides an overview of the Hangman game, how to play it, and any additional information that players might find useful.
 
-# Hangman Game (Java with JavaFX)
-
-**Hangman Game** is a classic word-guessing game built in Java with a user interface created using JavaFX. This README provides an overview of the Hangman game, how to play it, and any additional information that players might find useful.
-
 ## How to Play
 
 ### Setup
