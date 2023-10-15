@@ -1,18 +1,20 @@
-## Getting Started
+# Hangman Game (Java with JavaFX)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Setup Instructions
 
-## Folder Structure
+### Adding JavaFX
 
-The workspace contains two folders by default, where:
+1. Download and install JavaFX if it's not already installed.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+2. Add the JavaFX SDK to the `lib` folder of your project.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Customizing Music
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1. Prepare the background music in .wav format.
 
-## Dependency Management
+2. Place your .wav music files in the `music` directory of your project.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+3. In the `App.java` file, update the music file-path to point to your chosen .wav music file. Modify this line as needed:
+
+   ```java
+   String musicFilePath = "music/your_background_music.wav";
